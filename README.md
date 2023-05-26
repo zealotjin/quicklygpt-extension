@@ -4,7 +4,7 @@ A Chrome extension that allows you to interact with ChatGPT right from page in v
 
 ![Alt Text](images/demo_quckly_gpt.gif) 
 
-Further explanations can be found in this [medium post]()
+Further explanations can be found in this [medium post](https://medium.com/@jgleeee/quicklygpt-a-chrome-extension-to-save-your-time-a041805ebe77)
 
 ### Description
 0. For installation, refer to the [chrome extention developer setup documentation](https://developer.chrome.com/docs/extensions/mv2/getstarted/)
