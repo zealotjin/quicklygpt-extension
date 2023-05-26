@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Quickly GPT",
+    "version": "1.0",
+    "description": "Quickly search for content using ChatGPT",
+    "action": {
+        "default_popup": "main.html"
+    },
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+                "https://*/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "externally_connectable": {
+        "matches": [
+            "https://*/*"
+        ]
+    }
+}
